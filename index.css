@@ -83,3 +83,27 @@
         border-radius: 15px;
 
     }
+
+
+    @media screen and (max-width:600px) {
+        #mainSection textarea{
+            width: 80%;
+        }
+        #output{
+            width: 50%;
+        }
+        #outputOfRepeatition{
+            width: 50%;
+        }
+    }
+    @media screen and (max-width:420px) {
+        #mainSection textarea{
+            width: 95%;
+        }
+        #output{
+            width: 82%;
+        }
+        #outputOfRepeatition{
+            width: 50%;
+        }
+    }
